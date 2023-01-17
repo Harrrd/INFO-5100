@@ -1,0 +1,17 @@
+public class HelloWorld {
+    private String greetings= "HelloWorld";
+
+    public void setGreetings(String greetings){
+        this.greetings = greetings;
+    }
+
+    public void greet(){
+        System.out.println(greetings);
+    }
+
+    public static void main(String[] args) {
+        HelloWorld helloworld = new HelloWorld();
+        helloworld.setGreetings("have a nice day");
+        helloworld.greet();
+    }
+}
